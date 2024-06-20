@@ -1,4 +1,4 @@
-var cacheName = 'TIWcog';
+var cacheName = 'Learning Environment';
 var filesToCache = [
   '/js/sw.js'
 ];
