@@ -3,7 +3,8 @@ const images = [
     { id: 2, text: "Google", url: "https://google.com", imgSrc: "/img/edu/google.jpg" },
     { id: 3, text: "Nunflix", url: "https://nunflix.com", imgSrc: "/img/edu/nunflix.png" },
     { id: 4, text: "YouTube Music", url: "https://music.youtube.com", imgSrc: "/img/edu/ytm.avif" },
-    { id: 3, text: "Cool Math Games", url: "https://coolmathgames.com", imgSrc: "/img/edu/mathgames.png" }
+    { id: 5, text: "Cool Math Games", url: "https://coolmathgames.com", imgSrc: "/img/edu/mathgames.png" },
+    { id: 6, text: "Geforce Now", url: "https://play.geforcenow.com", imgSrc: "/img/edu/gfn.jpeg" }
 ];
 
 const imageContainer = document.getElementById('image-container');
@@ -13,10 +14,11 @@ function displayImages(filteredImages) {
     imageContainer.innerHTML = '';
     filteredImages.forEach(image => {
         const imageItem = document.createElement('div');
-        imageItem.className = 'image-item';
         imageItem.innerHTML = `
-            <img src="${image.imgSrc}" alt="${image.text}" onclick="redirect('${image.url}')">
+        <div class="image-item" onclick="handleAction(${image.id})">
+            <img src="${image.imgSrc}" alt="${image.text}">
             <p>${image.text}</p>
+            </div>
         `;
         imageContainer.appendChild(imageItem);
     });
