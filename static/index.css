@@ -45,17 +45,24 @@ body {
     text-align: center;
     margin: 20px auto;
   }
+
   
   .form__input {
-    padding: 10px;
-    border-radius: 3px;
-    font-size: 16px;
-    width: 500px;
-    height:20px;
-    border:solid 1px rgba(255, 255, 255, 0.3);
+    width:600px;
     background-color: transparent;
+    border: 1.5px gray solid;
+    border-radius: 5px;
+    font-size: 20px;
     text-align: center;
-    color: #fff;
+    color: white;
+    outline: none;
+    height: 45px;
+    transition: color;
+    transition-duration: 100ms;
+  }
+
+  .form__input:disabled {
+    color: #757575;
   }
   
   a{
