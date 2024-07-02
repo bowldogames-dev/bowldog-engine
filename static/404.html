@@ -1,4 +1,4 @@
-<html><head><title>Error: proxy not registered.</title>
+<html><head><title>404 Error</title>
   <link rel="icon" type="image/png" href="/img/bowldog.png">
   <meta name="googlebot" content="index, follow, snippet">
     <base href="/">
@@ -17,14 +17,31 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
   }
   
-  
-   #register-proxy {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-        background-color: #0d1424;
+  #home {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: #0d1451;
         color: white;
         border-radius: 5px;
         width: 175x;
-        height: 30px;
+        height: 50px;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+     transition: 0.7s;
+  }
+
+  #home:hover {
+    transform: scale(1.2);
+         box-shadow: 0 0 1vw #0d1429;
+  }
+  
+   #register-proxy {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: #0d1451;
+        color: white;
+        border-radius: 5px;
+        width: 175x;
+        height: 50px;
         padding: 10px;
         border: none;
         cursor: pointer;
@@ -42,7 +59,7 @@
 <br>
 <br>
 <br>
-<center><h1>Engine not loaded.</h1>
+<center><h1>404: Page not found or engine not loaded.</h1>
     
     <div class="desc">
       <center><p style="font-size: 22px;"><h4>To Register The engine, Press The Button Below.</h4></p></center>
@@ -51,6 +68,8 @@
       <center><button id="register-proxy" value="Register proxy">
         Load Engine.
       </button></center>
+      <h2>Or, go home</h2>
+      <button id="home" onclick="window.location.href='/'">Home</button>
     
     <script src="/static/uv/uv.bundle.js"></script>
     <script src="/static/uv/uv.config.js"></script>
