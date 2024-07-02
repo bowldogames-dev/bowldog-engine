@@ -1,11 +1,11 @@
 const images = [
-    { id: 1, text: "Invidious (youtube alt)", url: "https://invidious.jing.rocks", imgSrc: "/img/edu/iv.png" },
+    { id: 1, text: "Invidious (youtube alt)", url: "https://invidious.drgns.space", imgSrc: "/img/edu/iv.png" },
     { id: 2, text: "Google", url: "https://google.com", imgSrc: "/img/edu/google.jpg" },
     { id: 3, text: "Nunflix", url: "https://nunflix.com", imgSrc: "/img/edu/nunflix.png" },
     { id: 4, text: "YouTube Music", url: "https://music.youtube.com", imgSrc: "/img/edu/ytm.avif" },
     { id: 5, text: "Cool Math Games", url: "https://coolmathgames.com", imgSrc: "/img/edu/mathgames.png" },
     { id: 6, text: "Geforce Now", url: "https://play.geforcenow.com", imgSrc: "/img/edu/gfn.jpeg" },
-    { id: 7, text: "Twitch", url: "https://twitch.tv", imgSrc: "/img/edu/twitch.png" },
+    { id: 7, text: "Twitch", url: "https://twitch.tv", imgSrc: "/img/edu/twitch.jpeg" },
     { id: 8, text: "Reddit", url: "https://reddit.com", imgSrc: "/img/edu/reddit.png" }
 ];
 
@@ -17,13 +17,20 @@ function displayImages(filteredImages) {
     filteredImages.forEach(image => {
         const imageItem = document.createElement('div');
         imageItem.innerHTML = `
-        <div class="image-item" onclick="handleAction(${image.id})">
+            <div class="image-item" onclick="handleAction(${image.id})">
             <img src="${image.imgSrc}" alt="${image.text}">
             <p>${image.text}</p>
             </div>
         `;
         imageContainer.appendChild(imageItem);
     });
+}
+
+function handleAction(id) {
+    const image = images.find(img => img.id === id);
+    if (image) {
+        redirect(image.url);
+    }
 }
 
 function redirect(url) {

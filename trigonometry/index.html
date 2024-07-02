@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𐌁ꝊᏔ𐌋𐌃ꝊᏵ 𐌋𐌄𐌀𐌐𐌍𐌉𐌍Ᏽ - Head start on algebra 2 practice.</title>
+    <link rel="icon" href="/img/bowldog.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/kindatabs.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="/"><img src="/img/bowldog.png"></a></div>
+        <ul class="navbar-menu">
+            <li><a href="/static/calculus/"><i class="fa-solid fa-gamepad-modern"></i> Ga<span>mes</a></li>
+            <li><a href="/static/diameter/"><i class="fa-solid fa-grid-2"></i> Apps</a></li>
+            <li><a href="/trigonometry/"><i class="fa-regular fa-globe-pointer"></i> Pr<span>ð</span>x̶y</a></li>
+            <li><a href="/intergers/"><i class="fa-solid fa-gear-complex"></i> Settings</a></li>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <div class="buttonrow">
+    <a href="#" onclick="goBack();" id="back"><i class="fa-thin fa-chevrons-left"></i></a>
+    <a href="#" onclick="home();" id="home"><i class="fa-regular fa-house"></i></a>
+    <a href="#" onclick="goForward();" id="forward"><i class="fa-thin fa-chevrons-right"></i></a>
+    <a href="#" onclick="toggleFullscreen();" id="fc"><i class="fa-regular fa-expand-wide"></i></a>
+    <a href="#" onclick="reload();" id="reload"><i class="fa-regular fa-rotate"></i></a>
+</div>
+<div id="searchContainer">
+<iframe id="searchFrame" src="/static/"></iframe>
+</div>
+</body>
+<script>
+     function reload() {
+      var web = document.getElementById("searchFrame");
+      web.contentWindow.location.reload();
+      //web.src += ""
+    }
+    function toggleFullscreen() {
+      let elem = document.querySelector('#searchFrame');
+
+      if (!document.fullscreenElement) {
+        elem.requestFullscreen().catch((err) => {
+          alert(`Error attempting to enable fullscreen mode: ${err.message} (${err.name})`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
+    function goBack() {
+        var iframe = document.getElementById('searchFrame');
+        iframe.contentWindow.history.back();
+    }
+
+    function goForward() {
+        var iframe = document.getElementById('searchFrame');
+        iframe.contentWindow.history.forward();
+    }
+    function home() {
+        document.getElementById('searchFrame').src = '/static/';
+    }
+</script>
+</html>

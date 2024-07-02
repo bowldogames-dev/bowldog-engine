@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,700;1,700&display=swap');
+body {
+color:white;
+background-color:#0d1424;
+overflow:hidden;
+}
+
+#searchContainer {
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+  }
+
+iframe {
+    border:none;
+    width:100%;
+    height:100%;
+    position:relative;
+    border-radius:10px;
+}
+
+.buttonrow {
+    position:relative;
+    margin-top:25px;
+}
+
+.buttonrow a {
+    color:white;
+    text-decoration: none;
+    font-size:2vw;
+}
+
+.buttonrow #back {
+    position:relative;
+    margin:15px;
+}
+
+.buttonrow #forward {
+    position:relative;
+}
+
+.buttonrow #reload {
+    float:right;
+    position:relative;
+    margin:15px;
+}
+
+.buttonrow #fc {
+    float:right;
+    position:relative;
+    margin:15px;
+}
+
+.buttonrow #home {
+    float:center;
+    justify-self:center;
+    position:relative;
+    margin-right:15px;
+}

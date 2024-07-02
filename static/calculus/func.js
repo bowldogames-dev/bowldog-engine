@@ -2,7 +2,8 @@ const images = [
     { id: 1, text: "Adventure Capatalist", action: "redirectUrl", url: "https://than1089.github.io/adventure-capitalist", imgSrc: "/img/sci/adventurecap.png" },
     { id: 2, text: "Retro Bowl", action: "redirectCdn", fileName: "retro-bowl", imgSrc: "/img/sci/rb.avif" },
     { id: 3, text: "ROBL0X", action: "redirectUrl", url: "https://d886g6-8080.csb.app/", imgSrc: "/img/sci/rblx.png" },
-    { id: 4, text: "1", action: "redirectCdn", fileName: "1", imgSrc: "/img/sci/one.png" }
+    { id: 4, text: "1", action: "redirectCdn", fileName: "1", imgSrc: "/img/sci/one.png" },
+    { id: 5, text: "1v1.LOL Old", action: "redirectSrc", src: "/static/calculus/source/1v1-lol/old", imgSrc: "/img/sci/1v1-lol.webp" }
 ];
 
 const imageContainer = document.getElementById('image-container');
@@ -12,7 +13,6 @@ function displayImages(filteredImages) {
     imageContainer.innerHTML = '';
     filteredImages.forEach(image => {
         const imageItem = document.createElement('div');
-        imageItem.className = 'image-item';
         imageItem.innerHTML = `
             <div class="image-item" onclick="handleAction(${image.id})">
             <img src="${image.imgSrc}" alt="${image.text}">
