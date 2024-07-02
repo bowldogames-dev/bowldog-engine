@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,700;1,700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+}
+.section {
+    background-color:#002069;
+    width:99.5%;
+    height:400px;
+    padding: 15px;
+    position: relative;
+  text-align:center;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family:'Plus Jakarta Sans', sans-serif;
+}
+
+.section h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+          font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.iframecenter {
+    margin:30px;
+}
+
+iframe {
+    border-radius:10px;
+    border: none;
+    height:500px;
+    width:1000px;
+}
+
+.section .buttons {
+    background-color:#002069;
+    position:relative;
+    top:350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+}
+
+.section .buttons a {
+    border-radius: 0.5vw;
+  background-color: transparent;
+  text-decoration: none;
+  color:white;
+  font-size:1.5vw;
+  text-align:center;
+  transition: all 0.5s ease-in-out;
+  cursor:pointer;
+  margin:20px;
+}
+
+.section .buttons .back {
+    border:solid 1px #fff;
+    background-color:#454eb5;
+    margin:20px;
+    transition: all 0.5s ease-in-out;
+}
+
+.section .buttons .back:hover {
+    transform:scale(1.2);
+}
+
+.section .buttons a:hover {
+transform:scale(1.3);
+}
