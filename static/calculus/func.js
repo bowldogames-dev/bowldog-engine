@@ -1,6 +1,6 @@
 const images = [
     { id: 1, text: "Adventure Capatalist", action: "redirectUrl", url: "https://than1089.github.io/adventure-capitalist", imgSrc: "image1.jpg" },
-    { id: 2, text: "Retro Bowl", action: "redirectSrc", url: "/static/calculus/src/rbowl", imgSrc: "image2.jpg" },
+    { id: 2, text: "Retro Bowl", action: "redirectSrc", url: "/static/calculus/src/retro-bowl", imgSrc: "image2.jpg" },
     { id: 3, text: "Image 3", action: "redirectUrl", url: "https://roblox.com", imgSrc: "image3.jpg" },
 ];
 
