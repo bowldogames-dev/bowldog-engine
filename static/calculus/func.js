@@ -1,6 +1,6 @@
 const images = [
     { id: 1, text: "Adventure Capatalist", action: "redirectUrl", url: "https://than1089.github.io/adventure-capitalist", imgSrc: "/img/sci/adventurecap.png" },
-    { id: 2, text: "Retro Bowl", action: "redirectSrc", src: "/static/calculus/source/retrobwl-unlimited", imgSrc: "/img/sci/rb.avif" },
+    { id: 2, text: "Retro Bowl", action: "redirectCdn", fileName: "retro-bowl", imgSrc: "/img/sci/rb.avif" },
     { id: 3, text: "ROBL0X", action: "redirectUrl", url: "https://d886g6-8080.csb.app/", imgSrc: "/img/sci/rblx.png" },
     { id: 4, text: "1", action: "redirectCdn", fileName: "1", imgSrc: "/img/sci/one.png" }
 ];
