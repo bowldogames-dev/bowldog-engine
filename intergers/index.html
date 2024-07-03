@@ -6,6 +6,7 @@
     <title>𐌁ꝊᏔ𐌋𐌃ꝊᏵ 𐌋𐌄𐌀𐌐𐌍𐌉𐌍Ᏽ - Meet in person!</title>
     <link rel="icon" href="/img/bowldog.png" />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/settings.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
 </head>
@@ -19,7 +20,77 @@
             <li><a href="/intergers/"><i class="fa-solid fa-gear-complex"></i> Settings</a></li>
         </ul>
     </nav>
+<div class="container">
+    <div id="yes">
+<h1>About:Blank Cloaking</h1>
+<p>Used for not getting caught.</p>
+<button onclick="ab()">Regular AB</button>
+<button onclick="buffedAB()">Buffed AB</button>
+<h3>Auto AB</h3>
+<button onclick="disableAboutBlank()">Disable Auto AB</button>
+<button onclick="enableAboutBlank()">Enable Auto AB</button>
+    </div>
+    <div id="yes">
+        <h1>Tab Cloaking</h1>
+        <h2>Fool your teachers.</h2>
+    <input class="setinput" id="title" placeholder="Title" />
+    <br>
+    <br>
+    <input class="setinput" id="favicon" placeholder="Favicon" />
+    <div class="select-box">
+      <div class="selected-option" id="presets">Presets</div>
+      <ul class="options" id="presetOptions">
+        <li id="google">Google</li>
+        <li id="googleClassroom">Google Classroom</li>
+        <li id="bing">Bing</li>
+        <li id="nearpod">Nearpod</li>
+        <li id="powerschool">Powerschool sign in</li>
+      </ul>
+    </div>
+    <br>
+    <button id="customApply">Apply</button>
+    <button id="reset">Reset Cloak</button>
+            </div>
+<div id="yes">
+    <div align="center">
+        <div class="Selecthotkeyyyyy card">
+            <h1>Select a Hotkey</h1>
+            <p class="rtabtxt">To quick redirect to chosen URL, defaults to google.com</p>
+            <input class="setinput" type="text" id="hotkey-input" placeholder="Press a random key...">
+            <br>
+            <button id="change-hotkey-btn">Change Hotkey</button>
+        </div>
+    
+        <div class="redirectchoice card">
+            <p class="SBT">Choose Redirect URL</p>
+            <input class="setinput" type="text" id="redirect-url-input" placeholder="Paste URL here...">
+            <br>
+            <button id="change-URL-btn">Change Redirect URL</button>
+        </div>
+        </div>
+</div>
+<div id="yes">
+    <center>
+    <h1>Anti-Tab close</h1>
+    <p>prevent teachers from closing your tab</p>
+    <button id="onButton">Turn On</button>
+    <button id="offButton">Turn Off</button>
+</center>
+</div>
+<div align="center">
+<div id="yes">
+    <h1>Clickoff Cloaking</h1>
+    <p>When you click off, the tab switches!</p>
+    <button id="enableSwitch">Enable</button>
+    <button id="disableSwitch">Disable</button>
+</div>
+  
 </body>
-<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
-<script src="/js/particles.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="/js/settings/ab.js"></script>
+<script src="/js/settings/auto.js"></script>
+<script src="/js/settings/2cloak.js"></script>
+<script src="/js/settings/cloak.js"></script>
+<script src="/js/settings/hk.js"></script>
+<script src="/js/settings/clickoff.js"></script>
 </html>
