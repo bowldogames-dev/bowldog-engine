@@ -24,7 +24,7 @@ $(document).ready(function () {
 
   function applySettings(title, favicon) {
     localStorage.setItem("Title", title || "𐌁ꝊᏔ𐌋𐌃ꝊᏵ 𐌋𐌄𐌀𐌐𐌍𐌉𐌍Ᏽ");
-    localStorage.setItem("Favicon", favicon || "/img/bowldog.png");
+    localStorage.setItem("Favicon", favicon || "raw.githubusercontent.com/bowldogames-dev/bowldog-engine/main/img/bowldog.png");
     location.reload();
   }
 
