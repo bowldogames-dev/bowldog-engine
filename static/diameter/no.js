@@ -6,7 +6,8 @@ const images = [
     { id: 5, text: "Cool Math Games", url: "https://coolmathgames.com", imgSrc: "/img/edu/mathgames.png" },
     { id: 6, text: "Geforce Now", url: "https://play.geforcenow.com", imgSrc: "/img/edu/gfn.jpeg" },
     { id: 7, text: "Twitch", url: "https://twitch.tv", imgSrc: "/img/edu/twitch.jpeg" },
-    { id: 8, text: "Reddit", url: "https://reddit.com", imgSrc: "/img/edu/reddit.png" }
+    { id: 8, text: "Reddit", url: "https://reddit.com", imgSrc: "/img/edu/reddit.png" },
+    { id: 9, text: "TikTok", url: "https://tiktok.com", imgSrc: "/img/edu/tiktok.png" }
 ];
 
 const imageContainer = document.getElementById('image-container');

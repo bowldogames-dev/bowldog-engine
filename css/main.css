@@ -133,7 +133,6 @@ width:50px;
 }
 
 #search-bar {
-    margin-bottom: 20px;
     padding: 10px;
     width: 300px;
     font-size: 16px;
@@ -142,7 +141,7 @@ width:50px;
     border:1px solid;
     border-radius: 5px;
     text-align:center;
-    margin:30px;
+    margin:70px;
 }
 
 #image-container {
@@ -155,7 +154,7 @@ width:50px;
 }
 
 .image-item {
-    border-radius: 10px;
+    border-radius: 3px;
     background-color:#0d1c3f;
     text-align: center;
     transition:0.6s ease;
@@ -190,4 +189,5 @@ width:50px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-align:center;
     margin: 10px;
+    flex-wrap:wrap;
 }

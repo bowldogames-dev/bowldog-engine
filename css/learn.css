@@ -4,10 +4,21 @@
     margin: 0;
     overflow-x:hidden;
 }
+
+.sectionsection {
+    height:575px;
+    overflow:hidden;
+}
+
 .section {
-    background-color:#002069;
+    background:url(/img/gsbanner.png);
+    background-repeat:no-repeat;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-attachment:relative;
+    background-size: cover;
     width:99.5%;
-    height:400px;
+    height:100%;
     padding: 15px;
     position: relative;
   text-align:center;
@@ -26,6 +37,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
     transform: translate(-50%, -50%);
     text-align: center;
           font-family: 'Plus Jakarta Sans', sans-serif;
+          color:black;
 }
 
 .iframecenter {
@@ -39,17 +51,20 @@ iframe {
     width:1000px;
 }
 
-.section .buttons {
-    background-color:#002069;
+.buttons {
+    width:100%;
+}
+
+.buttons {
+    background-color:transparent;
     position:relative;
-    top:350px;
     display: flex;
     flex-wrap: wrap;
     align-items:center;
     justify-content:center;
 }
 
-.section .buttons a {
+ .buttons a {
     border-radius: 0.5vw;
   background-color: transparent;
   text-decoration: none;
@@ -61,17 +76,17 @@ iframe {
   margin:20px;
 }
 
-.section .buttons .back {
+ .buttons .back {
     border:solid 1px #fff;
     background-color:#454eb5;
     margin:20px;
     transition: all 0.5s ease-in-out;
 }
 
-.section .buttons .back:hover {
+.buttons .back:hover {
     transform:scale(1.2);
 }
 
-.section .buttons a:hover {
+ .buttons a:hover {
 transform:scale(1.3);
 }

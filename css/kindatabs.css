@@ -2,13 +2,13 @@
 body {
 color:white;
 background-color:#0d1424;
-overflow:hidden;
+overflow-x:hidden;
 }
 
 #searchContainer {
     justify-content: center;
     align-items: center;
-    height: 800px;
+    height: 700px;
   }
 
 iframe {
