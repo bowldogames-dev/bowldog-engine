@@ -12,7 +12,8 @@ const images = [
     { id: 11, text: "Eaglercraft 1.3.3 (old)", action: "redirectSrc", src: "/static/calculus/source/eaglercraft/133", imgSrc: "/img/sci/133.jpeg" },
     { id: 12, text: "Eaglercraft 1.5.2 (local)", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/152.jpeg" },
     { id: 13, text: "Eaglercraft 1.8.8 (server)", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/eaglercraft.jpg" },
-    { id: 14, text: "Eaglercraft 1.8.9", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/189.jpg" }
+    { id: 14, text: "Eaglercraft 1.8.9", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/189.jpg" },
+    { id: 15, text: "Test", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/test.png" }
 ];
 
 const imageContainer = document.getElementById('image-container');
