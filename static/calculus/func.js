@@ -10,10 +10,27 @@ const images = [
     { id: 9, text: "Achievement Unlocked 3", action: "redirectSrc", src: "/static/calculus/source/achievement-unlocked/3/", imgSrc: "/img/sci/achievement-3.webp" },
     { id: 10, text: "Slope", action: "redirectSrc", src: "/static/calculus/source/slope", imgSrc: "/img/sci/slope.jpeg" },
     { id: 11, text: "Eaglercraft 1.3.3 (old)", action: "redirectSrc", src: "/static/calculus/source/eaglercraft/133", imgSrc: "/img/sci/133.jpeg" },
-    { id: 12, text: "Eaglercraft 1.5.2 (local)", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/152.jpeg" },
-    { id: 13, text: "Eaglercraft 1.8.8 (server)", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/eaglercraft.jpg" },
-    { id: 14, text: "Eaglercraft 1.8.9", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/189.jpg" },
-    { id: 15, text: "Test", action: "redirectSrc", src: "/static/calculus/source/", imgSrc: "/img/sci/test.png" }
+    { id: 12, text: "Eaglercraft 1.5.2 (local)", action: "redirectSrc", src: "/static/calculus/source/eaglercraft/152", imgSrc: "/img/sci/152.jpeg" },
+    { id: 13, text: "Eaglercraft 1.8.8 (server)", action: "redirectSrc", src: "/static/calculus/source/eaglercraft/188", imgSrc: "/img/sci/eaglercraft.jpg" },
+    { id: 14, text: "Eaglercraft 1.8.9", action: "redirectSrc", src: "/static/calculus/source/eaglercraft/189", imgSrc: "/img/sci/189.jpg" },
+    { id: 15, text: "Subway Surfers", action: "redirectSrc", src: "/static/calculus/source/subway-surfers", imgSrc: "/img/sci/subway-surfers.jpeg" },
+    { id: 16, text: "Basket Random", action: "redirectSrc", src: "/static/calculus/source/basket-random", imgSrc: "/img/sci/basket-random.jpeg" },
+    { id: 17, text: "Hanger 2", action: "redirectSrc", src: "/static/calculus/source/hanger-2", imgSrc: "/img/sci/hanger-2.jpg" },
+    { id: 18, text: "Tunnel Rush", action: "redirectSrc", src: "/static/calculus/source/tunnel-rush", imgSrc: "/img/sci/tunnel-rush.jpg" },
+    { id: 19, text: "Time Shooter 3", action: "redirectSrc", src: "/static/calculus/source/time-shooter-3", imgSrc: "/img/sci/ts3.jpg" },
+    { id: 20, text: "Totally Accurate Battle Sim", action: "redirectSrc", src: "/static/calculus/source/tabs", imgSrc: "/img/sci/tabs.avif" },
+    { id: 21, text: "Football Legends", action: "redirectSrc", src: "/static/calculus/source/football-legends", imgSrc: "/img/sci/fblegends.avif" },
+    { id: 22, text: "Paper.IO 2", action: "redirectSrc", src: "/static/calculus/source/paper-io2", imgSrc: "/img/sci/paperio2.jpeg" },
+    { id: 23, text: "Helix Jump", action: "redirectSrc", src: "/static/calculus/source/helix-jump", imgSrc: "/img/sci/helix-jump.jpeg" },
+    { id: 24, text: "A Small World Cup", action: "redirectSrc", src: "/static/calculus/source/a-small-world-cup", imgSrc: "/img/sci/aswc.avif" },
+    { id: 25, text: "Basketball Legends", action: "redirectSrc", src: "/static/calculus/source/basketball-legends", imgSrc: "/img/sci/basketball-legends.jpg" },
+    { id: 26, text: "JustFall.LOL", action: "redirectSrc", src: "/static/calculus/source/just-fall", imgSrc: "/img/sci/just-fall-lol.png" },
+    { id: 27, text: "Death Run 3D", action: "redirectSrc", src: "/static/calculus/source/death-run-3d", imgSrc: "/img/sci/death-run-3d.png" },
+    { id: 28, text: "CraftMine", action: "redirectSrc", src: "/static/calculus/source/craftmine", imgSrc: "/img/sci/craftmine.jpg" },
+    { id: 29, text: "Happy Wheels", action: "redirectSrc", src: "/static/calculus/source/happy-wheels", imgSrc: "/img/sci/happy-wheels.webp" },
+    { id: 30, text: "OvO", action: "redirectSrc", src: "/static/calculus/source/ovo", imgSrc: "/img/sci/ovo.png" },
+    { id: 31, text: "Soccer Random", action: "redirectSrc", src: "/static/calculus/source/soccer-random", imgSrc: "/img/sci/soccer-random.png" },
+    { id: 32, text: "Slope Tunnel", action: "redirectSrc", src: "/static/calculus/source/slope-tunnel", imgSrc: "/img/sci/slope-tunnel.jpg" }
 ];
 
 const imageContainer = document.getElementById('image-container');
