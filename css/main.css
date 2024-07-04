@@ -166,18 +166,19 @@ border-radius:7px;
 }
 
 .image-item {
-    border-radius: 3px;
+    border-radius: 12px;
     background-color:#0d1c3f;
     text-align: center;
-    transition:0.6s ease;
+    transition:0.3s ease;
     cursor:default;
     height:250px;
+    border:solid 2px #fff;
 }
 
 .image-item:hover {
-    animation: enlarge 0.5s ease-in-out;
+    border-radius:9px;
+    animation: enlarge 0.3s ease-in-out;
            animation-fill-mode: both;
-    box-shadow: 0px 0px 10px #001b5a;
 }
 
 @keyframes enlarge {
@@ -185,7 +186,7 @@ border-radius:7px;
       transform: scale(1);
     }
     100% {
-      transform: scale(1.1);
+      transform: scale(1.17);
     }
   }
 

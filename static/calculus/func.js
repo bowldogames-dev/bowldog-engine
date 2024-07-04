@@ -1,4 +1,5 @@
-const images = [{
+const images = [
+    {
         id: 1,
         text: "Adventure Capatalist",
         action: "redirectUrl",
@@ -235,6 +236,97 @@ const images = [{
         action: "redirectSrc",
         src: "/static/calculus/source/cupcakeria",
         imgSrc: "/img/sci/cupcakeria.png"
+    },
+    {
+        id: 35,
+        text: "Super Mario 64",
+        action: "redirectSrc",
+        src: "/static/calculus/source/sm64",
+        imgSrc: "/img/sci/sm64.jpeg"
+    },
+    {
+        id: 36,
+        text: "",
+        action: "redirectSrc",
+        src: "/static/calculus/source/",
+        imgSrc: "/img/sci/"
+    },
+    {
+        id:37 ,
+        text: "",
+        action: "redirectCdn",
+        fileName: "",
+        imgSrc: "/img/sci/"
+    },
+    {
+        id: 38,
+        text: "",
+        action: "redirectUrl",
+        url: "https://",
+        imgSrc: "/img/sci/"
+    },
+    {
+        id: 39,
+        text: "",
+        action: "redirectUrl",
+        url: "https://",
+        imgSrc: "/img/sci/"
+    },
+    {
+        id: 40,
+        text: "Vex",
+        action: "redirectSrc",
+        src: "/static/calculus/source/vex",
+        imgSrc: "/img/sci/vex.png"
+    },
+    {
+        id: 41,
+        text: "Vex 2",
+        action: "redirectSrc",
+        src: "/static/calculus/source/vex/2",
+        imgSrc: "/img/sci/vex-2.jpeg"
+    },
+    {
+        id: 42,
+        text: "Vex 3",
+        action: "redirectCdn",
+        fileName: "vex3",
+        imgSrc: "/img/sci/vex-3.jpg"
+    },
+    {
+        id: 43,
+        text: "Vex 4",
+        action: "redirectSrc",
+        src: "/static/calculus/source/vex/4",
+        imgSrc: "/img/sci/vex-4.png"
+    },
+    {
+        id: 44,
+        text: "Vex 5",
+        action: "redirectSrc",
+        src: "/static/calculus/source/vex/5",
+        imgSrc: "/img/sci/vex-5.webp"
+    },
+    {
+        id: 45,
+        text: "Vex 6",
+        action: "redirectSrc",
+        src: "/static/calculus/source/vex/6",
+        imgSrc: "/img/sci/vex-6.jpeg"
+    },
+    {
+        id: 46,
+        text: "Vex 7",
+        action: "redirectCdn",
+        fileName: "vex7",
+        imgSrc: "/img/sci/vex-7.png"
+    }
+    {
+        id: 47,
+        text: "Vex 8",
+        action: "redirectSrc",
+        src: "/static/calculus/source/vex/8",
+        imgSrc: "/img/sci/vex-8.jpeg"
     }
 ];
 
