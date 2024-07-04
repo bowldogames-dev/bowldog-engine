@@ -320,7 +320,7 @@ const images = [
         action: "redirectCdn",
         fileName: "vex7",
         imgSrc: "/img/sci/vex-7.png"
-    }
+    },
     {
         id: 47,
         text: "Vex 8",
