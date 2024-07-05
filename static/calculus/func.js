@@ -134,7 +134,7 @@ const images = [
     },
     {
         id: 20,
-        text: "Totally Accurate Battle Sim",
+        text: "TABS",
         action: "redirectSrc",
         src: "/static/calculus/source/tabs",
         imgSrc: "/img/sci/tabs.avif"
@@ -246,31 +246,31 @@ const images = [
     },
     {
         id: 36,
-        text: "",
-        action: "redirectSrc",
-        src: "/static/calculus/source/",
-        imgSrc: "/img/sci/"
+        text: "Bacon May Die",
+        action: "redirectUrl",
+        url: "https://betterbull.com/uploads/5/5/6/7/5567194/custom_themes/320690105873469650/files/index.html",
+        imgSrc: "/img/sci/bacon-may-die.png"
     },
     {
-        id:37 ,
-        text: "",
+        id: 37,
+        text: "10 Minutes Till Dawn",
         action: "redirectCdn",
-        fileName: "",
-        imgSrc: "/img/sci/"
+        fileName: "10-minutes-till-dawn",
+        imgSrc: "/img/sci/10-mins.png"
     },
     {
         id: 38,
-        text: "",
-        action: "redirectUrl",
-        url: "https://",
-        imgSrc: "/img/sci/"
+        text: "That's Not My Neighbor",
+        action: "redirectSrc",
+        url: "/static/diameter/source/notmyneighbor",
+        imgSrc: "/img/sci/notmyneighbor.jpg"
     },
     {
         id: 39,
-        text: "",
+        text: "Friday Night Funkin",
         action: "redirectUrl",
-        url: "https://",
-        imgSrc: "/img/sci/"
+        url: "https://uploads.ungrounded.net/alternate/1528000/1528775_alternate_113347_r119.zip/?NewgroundsAPI_PublisherID=1&NewgroundsAPI_SandboxID=6687179542f59&NewgroundsAPI_SessionID=&NewgroundsAPI_UserName=%26lt%3Bdeleted%26gt%3B&NewgroundsAPI_UserID=0&ng_username=%26lt%3Bdeleted%26gt%3B",
+        imgSrc: "/img/sci/fnf.png"
     },
     {
         id: 40,
@@ -327,6 +327,62 @@ const images = [
         action: "redirectSrc",
         src: "/static/calculus/source/vex/8",
         imgSrc: "/img/sci/vex-8.jpeg"
+    },
+    {
+        id: 48,
+        text: "Bad Time Simulator",
+        action: "redirectSrc",
+        src: "/static/calculus/source/bad-time-sim",
+        imgSrc: "/img/sci/bts.jpg"
+    },
+    {
+        id: 49,
+        text: "2048",
+        action: "redirectCdn",
+        fileName: "2048",
+        imgSrc: "/img/sci/2048.png"
+    },
+    {
+        id: 50,
+        text: "Slow Roads",
+        action: "redirectUrl",
+        url: "https://meximath.github.io/slowroads/",
+        imgSrc: "/img/sci/slow-roads.webp"
+    },
+    {
+        id: 51,
+        text: "Super Smash Bros",
+        action: "redirectSrc",
+        src: "/static/calculus/source/ssb",
+        imgSrc: "/img/sci/ssb.jpg"
+    },
+    {
+        id: 52,
+        text: "GeoFS",
+        action: "redirectUrl",
+        url: "https://www.geo-fs.com/geofs.php?v=3.7",
+        imgSrc: "/img/sci/geofs.jpg"
+    },
+    {
+        id: 53,
+        text: "Backrooms",
+        action: "redirectSrc",
+        src: "/static/calculus/source/backrooms",
+        imgSrc: "/img/sci/backrooms.jpg"
+    },
+    {
+        id: 54,
+        text: "Bad Piggies",
+        action: "redirectSrc",
+        src: "/static/calculus/source/bad-piggies",
+        imgSrc: "/img/sci/bad-piggies.png"
+    },
+    {
+        id: 55,
+        text: "Tomb Of The Mask",
+        action: "redirectSrc",
+        src: "/static/calculus/source/tomb-of-the-mask",
+        imgSrc: "/img/sci/tomb-of-the-mask.jpg"
     }
 ];
 

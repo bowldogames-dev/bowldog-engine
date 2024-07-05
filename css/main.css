@@ -193,7 +193,7 @@ border-radius:7px;
 .image-item img {
     cursor:default;
     border-radius: 10px;
-    max-width: 200px;
+    width: 200px;
     height:200px;
 }
 
