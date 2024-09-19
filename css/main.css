@@ -138,9 +138,11 @@ border-radius:7px;
     .navbar-menu {
         flex-direction: column;
         align-items: flex-start;
+        width:60%;
     }
     .navbar-menu li {
         margin: 0.5rem 0;
+        font-size:10px;
     }
 }
 

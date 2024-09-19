@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𐌁ꝊᏔ𐌋𐌃ꝊᏵ 𐌋𐌄𐌀𐌐𐌍𐌉𐌍Ᏽ - Contact support with widget chat</title>
+    <link id="favicon" rel="icon" href="/img/bowldog.png" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="/"><img src="/img/bowldog.png"></a></div>
+        <ul class="navbar-menu">
+            <li><a href="/static/calculus/"><i class="fa-solid fa-gamepad-modern"></i> Ga<span>mes</a></li>
+            <li><a href="/static/diameter/"><i class="fa-solid fa-grid-2"></i> Apps</a></li>
+            <li><a href="/trigonometry/"><i class="fa-regular fa-globe-pointer"></i> Pr<span>ð</span>x̶y</a></li>
+            <li><a href="/webchat/"><i class="fa-regular fa-comments"></i> Chatbox</a></li>
+            <li><a href="/intergers/"><i class="fa-solid fa-gear-complex"></i> Settings</a></li>
+        </ul>
+    </nav>
+    <br><br><br>
+ <script>
+        function toggleFullscreen() {
+      let elem = document.querySelector('#frame');
+
+      if (!document.fullscreenElement) {
+        elem.requestFullscreen().catch((err) => {
+          alert(`Error attempting to enable fullscreen mode: ${err.message} (${err.name})`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
+    </script>
+    <div style="justify-content:center;align-items:center;position:relative;width:100%;">
+        <a href="#" onclick="toggleFullscreen();" id="fc" style="color:white;font-size:24px;margin:30px;"><i class="fa-regular fa-expand-wide"></i></a>
+    <center>
+    <iframe id="frame" src="/webchat/2.html" style="height:95vh;width:1300px;border:none;"></iframe>
+    </center>
+</div>
+</body>
+</html>
