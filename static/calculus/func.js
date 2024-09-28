@@ -17,7 +17,7 @@ const images = [
         id: 3,
         text: "ROBL0X",
         action: "redirectUrl",
-        url: "https://89422c-8080.csb.app/",
+        url: "https://renderisgay.onrender.com/?utm_source=now.gg-partner&utm_medium=bot&utm_campaign=carl",
         imgSrc: "/img/sci/rblx.png"
     },
     {
@@ -383,6 +383,13 @@ const images = [
         action: "redirectSrc",
         src: "/static/calculus/source/tomb-of-the-mask",
         imgSrc: "/img/sci/tomb-of-the-mask.jpg"
+    },
+    {
+        id: 56,
+        text: "Papa's Pizzeria",
+        action: "redirectSrc",
+        src: "/static/calculus/source/pizzeria",
+        imgSrc: "/img/sci/pp.png"
     }
 ];
 

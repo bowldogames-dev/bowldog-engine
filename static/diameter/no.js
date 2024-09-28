@@ -1,7 +1,7 @@
 const images = [{
         id: 1,
         text: "Invidious (youtube alt)",
-        url: "https://invidious.drgns.space",
+        url: "https://iv.nboeck.de",
         imgSrc: "/img/edu/iv.png"
     },
     {
@@ -55,7 +55,7 @@ const images = [{
     {
         id: 10,
         text: "Aptoide",
-        url: "https://d886g6-8080.csb.app/apps/aptoide/5874/aptoide-2.html",
+        url: "https://renderisgay.onrender.com/apps/aptoide/5874/aptoide-2.html?app_pkg=com.roblox.client&partner=gamenora",
         imgSrc: "/img/edu/aptoide.webp"
     },
     {
@@ -99,6 +99,18 @@ const images = [{
         text: "SoundCloud",
         url: "https://soundcloud.com",
         imgSrc: "/img/edu/soundcloud.png"
+    },
+    {
+        id: 18,
+        text: "Instagram",
+        url: "https://now.gg/apps/instagram/1228/instagram.html?app_pkg=com.roblox.client&partner=gamenora",
+        imgSrc: "/img/edu/insta.jfif"
+    },
+    {
+        id: 19,
+        text: "Discord",
+        url: "https://renderisgay.onrender.com/apps/discord-inc-/1430/discord-talk-chat-hang-out.html?app_pkg=com.roblox.client&partner=gamenora",
+        imgSrc: "/img/edu/discord.png"
     }
 ];
 

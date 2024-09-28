@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/educational/',
-    bare:'https://sunset-network.vercel.app/bare/',
+    bare: 'https://tetris-play.vercel.app/ov/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
