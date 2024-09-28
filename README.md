@@ -16,9 +16,9 @@
 
 # Deployment 
 ## deploy to one of these SaaS Services:
-<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/bowldogames/bowldog-engine"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
-<a target="_blank" href="https://app.netlify.com/start/deploy?repository=https://github.com/bowldogames/bowldog-engine"><img alt="Deploy to Netlify" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg"></a>
-<a target="_blank" href="https://vercel.com/new/clone?repository-url=https://github.com/bowldogames/bowldog-engine"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg"></a>
-<a target="_blank" href="https://render.com/deploy?repo=https://github.com/bowldogames/bowldog-engine"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
+<a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/bowldogames-dev/bowldog-engine"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
+<a target="_blank" href="https://app.netlify.com/start/deploy?repository=https://github.com/bowldogames-dev/bowldog-engine"><img alt="Deploy to Netlify" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg"></a>
+<a target="_blank" href="https://vercel.com/new/clone?repository-url=https://github.com/bowldogames-dev/bowldog-engine"><img alt="Deploy to Vercel" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg"></a>
+<a target="_blank" href="https://render.com/deploy?repo=https://github.com/bowldogames-dev/bowldog-engine"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
 # credits
 ## ThatGuy_Toji (formerly justj_rdan) - the whole website lmao
