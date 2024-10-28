@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/educational/',
-    bare: 'https://pabare.slackersinc.net/bare/',
+    bare: 'https://abyss-web-intel.vercel.app/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
