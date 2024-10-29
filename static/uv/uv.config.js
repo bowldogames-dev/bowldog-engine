@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/static/jmwsw/',
+    prefix: '/static/bdgedu/',
     bare: 'https://abyss-web-intel.vercel.app/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
