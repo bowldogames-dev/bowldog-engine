@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/bdgedu/',
-    bare: 'https://parallel-daphene-ijuslostmydooohg-021a963b.koyeb.app/fq/',
+    bare: 'https://frog.tracbras.com.br/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
