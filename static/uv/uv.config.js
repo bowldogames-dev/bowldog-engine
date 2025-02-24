@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/static/bdgedu/',
-    bare: 'https://frog.tracbras.com.br/bare/',
+    bare: 'https://bare.galacticnetwork.org/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
