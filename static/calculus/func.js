@@ -432,7 +432,7 @@ function redirectSrc(src, text) {
 }
 
 function redirectCdn(fileName, text) {
-    const url = `https://library.algebrafordummies.fun/GalacticNetwork/3kh0-assets/main/${fileName}/index.html`;
+    const url = `https://rawcdn.rawgit.net/GalacticNetwork/3kh0-assets/main/${fileName}/index.html`;
     location.href = `/static/calculus/src.html?mylearningexperience=${encodeURIComponent(url)}&text=${encodeURIComponent(text)}`;
 }
 
